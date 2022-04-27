@@ -1,7 +1,8 @@
+pip install streamlit
+pip install matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
-import pydeck as pdk
 
 # Load the Data and Drop unneccessary columns 
 defense = pd.read_csv("NFL Team Defense Statistics.csv")
